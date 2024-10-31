@@ -1,0 +1,29 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "admin@faeeth.fr",
+                "Name": "Faeeth"
+            }
+        ],
+        "Category": "Utilities",
+        "Dependencies": [
+        ],
+        "Description": "Affiche le prix actuel de l'ETH sur le marché.",
+        "EnabledByDefault": true,
+        "Icon": "eth",
+        "Id": "org.kde.plasma.ethprice",
+        "License": "GPL-3.0",
+        "Name": "Ethereum Price",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-DefaultSize": "200,50",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Requires-FileDialog": "Unused",
+    "X-Plasma-Requires-LaunchApp": "Unused"
+}
